@@ -5,20 +5,30 @@ function submit() {
 	var inputq4 = document.getElementById("question4").value
 	var inputq5 = document.getElementById("question5").value
 
-	if (inputq1 || inputq2 || inputq3 || inputq4 || inputq5 === '') {
-		document.getElementById("hiddenvalidator").style.color = "red";
-		document.getElementById('hiddenvalidator').style.fontSize = "1em"
-		document.getElementById('hiddenvalidator').style.marginLeft = "10px"
-	} 
-
 	if (inputq1 && inputq2 && inputq3 && inputq4 && inputq5 != '') {
 		document.getElementById('hiddenvalidator').style.fontSize = "0px"
 		var validity = true
 	} else {
+		document.getElementById("hiddenvalidator").style.color = "red";
+		document.getElementById('hiddenvalidator').style.fontSize = "1em"
+		document.getElementById('hiddenvalidator').style.marginLeft = "10px"
 		var validity = false
+	}
+
+	if (validity == true) {
+		var submitq1 = inputq1
+		var submitq2 = inputq2
+		var submitq3 = inputq3
+		var submitq4 = inputq4
+		var submitq5 = inputq5
 	}
 	
 	console.log(validity)
+	console.log(submitq1)
+	console.log(submitq2)
+	console.log(submitq3)
+	console.log(submitq4)
+	console.log(submitq5)
 
 	// console.log(inputq1)
 	// console.log(inputq2)
