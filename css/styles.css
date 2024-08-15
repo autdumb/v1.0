@@ -171,7 +171,7 @@ textarea {
 
 .doctitle {
   font-weight: bold;
-  font-size: 6em;
+  font-size: 2em;
   text-align: center;
 }
 }
@@ -244,15 +244,15 @@ div.filler {
 }
 
 #homebox1 {
-  background-color: #e8bcf0;
+  background-color: #ff888a;
 }
 
 #homebox2 {
-  background-color: #da8ee7;
+  background-color: #ff5253;
 }
 
 #homebox3 {
-  background-color: #ca5cdd;
+  background-color: #ff1b1c;
 }
 
 #homebox1 div, #homebox2 div, #homebox3 div, #homebox4 div {
