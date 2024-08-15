@@ -70,7 +70,21 @@ textarea {
 
 .mwheader {
   text-align: center;
+  margin-top: 2%;
+  font-size: 3em;
+  font-weight: 400;
+}
+
+.mwheaderaboutus {
+  text-align: center;
   margin: 2%;
+  font-size: 3em;
+  font-weight: 400;
+}
+
+.mwheaderform {
+  text-align: center;
+  margin-top: 2%;
   font-size: 3em;
   font-weight: 400;
 }
@@ -83,6 +97,16 @@ textarea {
   margin-top: 0;
   font-size: 1em;
 }
+
+.mwbodyform {
+  text-align: center;
+  margin-bottom: 3%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 0;
+  font-size: 0.5em;
+}
+
 
 .formbutton {
   position: absolute;
