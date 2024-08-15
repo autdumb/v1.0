@@ -19,6 +19,10 @@ body {
   margin: 10px 10px 0px 0;
 }
 
+#hiddenvalidator {
+  font-size: 0;
+}
+
 div.form-question {
   margin-left: 24%;
   margin-bottom: 0.5%;
@@ -407,7 +411,7 @@ div #hsubtxt1, div #hsubtxt2, div #hsubtxt3 {
 }
 
 
-@media (max-width: 767px) {
+@media (min-width: 525px) and (max-width: 767px) {
   .navbar-brand {
     padding-top: 10px;
     height: 80px;
@@ -489,6 +493,104 @@ div #hsubtxt1, div #hsubtxt2, div #hsubtxt3 {
   text-align: center;
   font-weight: 300;
   font-size: 0.6em;
+}
+
+.textheader {
+  font-weight: 400;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#textbody1 {
+  font-weight: 200;
+  font-size: 0.6em;
+}
+
+}
+
+@media (max-width: 524px) {
+
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+
+  .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 5vw;
+    margin-left: 15px;
+  }
+
+  #collapsable-nav a {
+    font-size: 1em;
+  }
+
+  #collapsable-nav a span {
+    font-size: 0.8em;
+    margin-right: 5px; 
+  }
+
+  .oltext1 {
+  position: absolute;
+  left: 4%;
+  top: 15%;
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.oltext2 {
+  position: absolute;
+  left: 4%;
+  top: 31%;
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+
+.oltext3 {
+  position: absolute;
+  left: 4%;
+  top: 50%;
+  color: #ffffff;
+  font-size: 0.6em;
+  font-weight: 300;
+}
+
+.formbutton {
+  position: absolute;
+  left: 4%;
+  top: 60%;
+}
+.btna { 
+    color: white; 
+    height: 7%; 
+    font-size: 0.5em; 
+    margin: 3px; 
+    border: 1px solid white; 
+    width: 100%; 
+}
+
+.btnb { 
+    border-radius: 5px; 
+    background-color: transparent; 
+} 
+
+#homebox1, #homebox2, #homebox3, #homebox4 {
+  height: 100px;
+}
+
+#homebox1 div, #homebox2 div, #homebox3 div, #homebox4 div {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+div #hsubtxt1, div #hsubtxt2, div #hsubtxt3 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 0.45em;
 }
 
 .textheader {
